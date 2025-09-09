@@ -1,0 +1,25 @@
+{
+  "name": "introdu-ao-a-taildwind",
+  "version": "1.0.0",
+  "description": "**Tailwind CSS** é um framework de CSS utilitário que permite construir interfaces rapidamente através de **classes prontas** aplicadas diretamente no HTML.  \r Em vez de criar arquivos CSS enormes com estilos personalizados, você usa classes que já vêm no Tailwind para estilizar cada elemento.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/tailwind.css -o ./src/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shamira-Chu/introdu-ao-a-Taildwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Shamira-Chu/introdu-ao-a-Taildwind/issues"
+  },
+  "homepage": "https://github.com/Shamira-Chu/introdu-ao-a-Taildwind#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "tailwindcss": "^4.1.13"
+  }
+}
